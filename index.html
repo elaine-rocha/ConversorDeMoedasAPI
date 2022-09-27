@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moedas</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div id="interface"> 
+        <h1 id="titulo">Conversor de moedas</h1> 
+        <label>Valor:</label> </span>  
+        <input id="entrada" type="number">   
+           
+          <select id="moedas">
+                <option value='NULL'>Selecione</option>
+                <option value='EUR'>Euro</option>
+                <option value='USD'>Dólar</option>
+                <option value='USDT'>Dólar turismo</option>
+                <option value='CAD'>Dólar canadense</option>
+                <option value='AUD'>Dólar australiano</option>
+                <option value='GBP'>Libra Esterlina</option>
+                <option value='ARS'>Peso argentino</option>
+                <option value='JPY'>Iene Japonês</option>
+                <option value='CNY'>Yuan Chinês</option>
+                <option value='CHF'>Franco Suíço</option>
+                <option value='ILS'>Novo Shekel Israelense</option>
+                <option value='BTC'>Bitcoin</option>
+                <option value='ETH'>Ethereum</option>
+                <option value='LTC'>Litecoin</option>
+                <option value='DOGE'>Dogecoin</option>
+                <option value='XRP'>XRP</option>
+          </select>  
+  
+        <button onclick="converter()">Calcular</button>
+        <h3 id="saida"></h3> 
+        <span id="atualizacao"></span>
+    </div>
+</body>
+</html>
